@@ -68,6 +68,36 @@ function buttonClicked() {
     console.log(fotballClubs);
 }
 
+/*Task 6. Create an array of objects with 3 people inside it. 
+Use the filter function to map by a name.*/
+
+var person1 = {
+    firstName: 'George',
+    lastName: 'Olson',
+    age: 53
+}
+
+var person2 = {
+    firstName: 'Susan',
+    lastName: 'Olson',
+    age: 15
+}
+
+var person3 = {
+    firstName: 'Chris',
+    lastName: 'Olson',
+    age: 34
+}
+
+var familyOlson = [person1, person2, person3];
+
+var firstNames = familyOlson.map(function(person) {
+    return person.firstName;
+})
+
+console.log(firstNames);
+
+
 //Task 7. Create a simple function that logs the date.
 
 function logDate() {
