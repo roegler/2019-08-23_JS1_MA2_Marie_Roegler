@@ -18,7 +18,7 @@
 
 
 		myFunction();
-	«Inside my function» will be written to the console from this function.
+	'inside my function' will be written to the console from this function.
 
 
 5. Briefly describe scope in JavaScript.
