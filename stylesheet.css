@@ -1,0 +1,20 @@
+body {
+    background-color: white;
+    font-family: Arial;
+}
+
+.myButton {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(5, 119, 98);
+    margin: auto;
+    border: solid rgb(1, 53, 44) 2px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
