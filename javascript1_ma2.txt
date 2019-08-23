@@ -22,4 +22,4 @@
 
 
 5. Briefly describe scope in JavaScript.
-	Scopes in JS refers to where we define variables and functions. ß
+	Scopes in JS refers to where we define variables and functions.
